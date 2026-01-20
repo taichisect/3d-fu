@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D送福</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="info">
+            🖱️ 鼠标左键拖拽旋转 | 滚轮缩放 | 右键平移
+        </div>
+        <div id="loading">加载模型中...</div>
+    </div>
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "./js/vendor/three/build/three.module.js",
+            "three/addons/": "./js/vendor/three/examples/jsm/"
+        }
+    }
+    </script>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

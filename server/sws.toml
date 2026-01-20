@@ -1,0 +1,22 @@
+# static-web-server config
+# Docs: https://github.com/static-web-server/static-web-server
+
+[general]
+# 监听地址与端口
+host = "127.0.0.1"
+port = 8000
+
+# 站点根目录：项目根目录（server 的上一级）
+root = ".."
+
+# 默认首页
+page-fallback = "/index.html"
+
+# 方便查看问题
+log-level = "info"
+
+# 如果你不需要目录列表，可保持 false
+directory-listing = false
+
+# 如需本地调试更直观，可关闭缓存
+cache-control-headers = false
